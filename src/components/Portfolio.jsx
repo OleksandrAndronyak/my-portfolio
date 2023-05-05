@@ -1,38 +1,31 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
+import itunes from "../assets/portfolio/itunes-app.png";
+import chroniclesMusing from "../assets/portfolio/chronicles-musing.png";
+import Hangman from "../assets/portfolio/Hangman.png";
 import studioMila from "../assets/portfolio/studioMila.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
-      codeUrl: "https://github.com/OleksandrAndronyak/Chronicles-Musing",
-      demoUrl: "https://www.google.com/",
+      src: itunes,
+      codeUrl: "https://github.com/OleksandrAndronyak/itunes",
+      demoUrl: "https://itunes-app.herokuapp.com/",
     },
     {
       id: 2,
-      src: installNode,
-      codeUrl: "https://github.com/OleksandrAndronyak/Itunes",
-      demoUrl: "https://www.g2play.net/",
+      src: chroniclesMusing,
+      codeUrl: "https://github.com/OleksandrAndronyak/Chronicles-Musing",
+      demoUrl: "https://chronicles-musing.herokuapp.com/",
     },
     {
       id: 3,
-      src: navbar,
+      src: Hangman,
       codeUrl: "https://github.com/OleksandrAndronyak/hangman",
-      demoUrl: "www.studio-mila-beauty.com",
+      demoUrl: "https://hangman-two-phi.vercel.app/",
     },
     {
       id: 4,
-      src: reactParallax,
-      codeUrl: "https://github.com/OleksandrAndronyak/studio-mila",
-      demoUrl: "www.studio-mila-beauty.com",
-    },
-    {
-      id: 5,
       src: studioMila,
       codeUrl: "https://github.com/OleksandrAndronyak/studio-mila",
       demoUrl: "http://www.studio-mila-beauty.com/",
