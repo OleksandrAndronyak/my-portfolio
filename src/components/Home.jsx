@@ -1,5 +1,5 @@
 import React from "react";
-import MeImage from "../assets/FC731DF1-66B8-44D7-87C8-B313C69BAB41_1_201_a.jpeg";
+import MeImage from "../assets/B40D0C5E-B9B6-449B-9CB9-0E218BECE4F1_1_201_a.jpeg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
