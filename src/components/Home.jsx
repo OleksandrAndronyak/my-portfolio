@@ -15,11 +15,13 @@ const Home = () => {
             I'm a Full Stack Web Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Just finished my Full Stack Web Development course in HyperionDev
-            through University of Edinburgh that started at 9th of January 2023
-            until 8th of April 2023. Currently, I love to work on web
-            applications using technologies like React, Tailwind, Next JS,
-            Express, Node JS.
+            Highly motivated and skilled Full Stack Web Developer with
+            experience in building responsive and user-friendly web applications
+            using a variety of programming languages and frameworks. Proficient
+            in front-end technologies such as HTML, CSS, JavaScript, and React
+            JS as well as back-end technologies such as Node JS, Next JS, and
+            Express JS. Strong knowledge of database design and management with
+            experience in MongoDB databases.
           </p>
 
           {/* "group" to get the icon rotation when mouse go over button
