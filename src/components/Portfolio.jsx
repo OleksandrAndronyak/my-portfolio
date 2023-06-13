@@ -3,6 +3,8 @@ import itunes from "../assets/portfolio/itunes-app.png";
 import chroniclesMusing from "../assets/portfolio/chronicles-musing.png";
 import Hangman from "../assets/portfolio/Hangman.png";
 import studioMila from "../assets/portfolio/studioMila.png";
+import grilli from "../assets/portfolio/grilli.png";
+
 
 const Portfolio = () => {
   const portfolios = [
@@ -29,6 +31,12 @@ const Portfolio = () => {
       src: studioMila,
       codeUrl: "https://github.com/OleksandrAndronyak/studio-mila",
       demoUrl: "http://www.studio-mila-beauty.com/",
+    },
+    {
+      id: 5,
+      src: grilli,
+      codeUrl: "https://github.com/OleksandrAndronyak/grilli",
+      demoUrl: "https://grilli-beta.vercel.app/",
     },
   ];
 
